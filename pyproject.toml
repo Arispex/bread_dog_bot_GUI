@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bread-dog-bot-gui"
+version = "0.1.0"
+description = ""
+authors = ["Qianyiovo <1291525582@qq.com>"]
+readme = "README.md"
+packages = [{include = "bread_dog_bot_gui"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyQt6 = "^6.4.0"
+PyYAML = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

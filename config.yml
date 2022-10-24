@@ -1,0 +1,4 @@
+basic:
+  arguments: -V
+  program: python3
+  work_dir: ../bread_dog_bot/
